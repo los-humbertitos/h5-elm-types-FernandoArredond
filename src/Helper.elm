@@ -2,6 +2,7 @@ module Helper exposing (..)
 
 --1.0 Create a function "categoricalGrade" that given a list of grades (float) return a list of (type) "GradeStatus" (with one of the following values) (Approved | Failed | Pending) where any negative number is Pending, and any number greater than 7 is Approved
 
+
 type GradeStatus
     = Approved
     | Failed
